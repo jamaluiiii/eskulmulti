@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekskul Multimedia - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo" width="50"> Multimedia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Kegiatan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center p-5">
+        <div class="container">
+            <h1>Ekskul Multimedia</h1>
+            <p>Kreativitas Tanpa Batas</p>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Ekskul Multimedia SMA Jumhuriyyah</h2>
+            <p>Di SMA Jumhuriyyah, terdapat sebuah ekstrakurikuler unggulan yang sangat menarik dan bermanfaat bagi siswa-siswi, yaitu <strong>Ekskul Multimedia</strong>. Ekstrakurikuler ini dirancang untuk mengembangkan kreativitas serta keterampilan digital dalam berbagai bidang seperti fotografi, videografi, desain grafis, dan editing konten.</p>
+
+            <p>Dengan fasilitas yang memadai dan bimbingan dari para profesional di bidangnya, <strong>Ekskul Multimedia</strong> memberikan kesempatan bagi anggotanya untuk menciptakan karya visual yang tidak hanya menarik, tetapi juga berkualitas tinggi. Ekskul ini cocok bagi siapa saja yang memiliki minat dalam dunia digital dan ingin mengasah kemampuan mereka dalam menghasilkan konten visual yang kreatif dan profesional.</p>
+
+            <h3>Keunggulan Ekskul Multimedia:</h3>
+            <ul>
+                <li><strong>Fotografi</strong>: Belajar teknik dasar fotografi dan praktik di lapangan.</li>
+                <li><strong>Videografi</strong>: Membuat dan mengedit video untuk berbagai keperluan acara sekolah.</li>
+                <li><strong>Desain Grafis</strong>: Mengembangkan keterampilan dalam membuat desain visual yang menarik menggunakan software profesional.</li>
+                <li><strong>Editing Konten</strong>: Memperdalam keterampilan editing video dan foto menggunakan perangkat lunak terkini.</li>
+            </ul>
+
+            <p>Selain mengembangkan keterampilan teknis, ekskul ini juga menanamkan nilai kolaborasi yang tinggi. Anggota ekskul multimedia bekerja dalam tim untuk menghasilkan proyek-proyek besar seperti pembuatan video dokumentasi acara, desain materi promosi, dan konten lainnya. Pengalaman ini tidak hanya meningkatkan keterampilan teknis, tetapi juga memperkuat kemampuan komunikasi dan kerja sama tim.</p>
+
+            <h3>Manfaat Menjadi Anggota Ekskul Multimedia:</h3>
+            <ul>
+                <li>Mengembangkan keterampilan digital yang sangat dibutuhkan di dunia kerja.</li>
+                <li>Meningkatkan kreativitas melalui berbagai proyek multimedia.</li>
+                <li>Meningkatkan kemampuan komunikasi melalui presentasi dan kolaborasi tim.</li>
+                <li>Memperluas jaringan dan pengalaman yang bermanfaat untuk masa depan.</li>
+            </ul>
+
+            <p>Dengan bergabung di <strong>Ekskul Multimedia SMA Jumhuriyyah</strong>, siswa-siswi tidak hanya belajar menghasilkan karya visual yang luar biasa, tetapi juga mendapatkan pengalaman yang sangat berharga untuk mengembangkan potensi diri mereka di dunia digital yang semakin berkembang.</p>
+        </div>
+    </section>
+
+
+    <script>
+        // Daftar gambar kegiatan eskul
+        const images = [
+            'images/workshop.jpg',
+            'images/video-production.jpg',
+            'images/editing.jpg'
+        ];
+
+        // Pilih gambar acak
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+
+        // Ganti background gambar di hero section
+        document.getElementById('heroSection').style.backgroundImage = `url(${randomImage})`;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <footer class="bg-secondary text-center text-white p-3">
+        <p>&copy; 2024 Ekskul Multimedia | Kreativitas Tanpa Batas</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
